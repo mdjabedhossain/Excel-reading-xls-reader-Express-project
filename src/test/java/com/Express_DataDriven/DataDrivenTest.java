@@ -46,7 +46,7 @@ public class DataDrivenTest {
 		driver.findElement(By.xpath("//*[@id=\"content\"]/section/section[2]/div/form/div[2]/div/input")).sendKeys(fname);
 		driver.findElement(By.xpath("//*[@id=\"content\"]/section/section[2]/div/form/div[3]/div/input")).sendKeys(lname);
 		driver.findElement(By.xpath("//*[@id=\"content\"]/section/section[2]/div/form/div[4]/div[1]/div[1]/input")).sendKeys(passwd);
-		
+		driver.findElement(By.xpath("it is what it is")).click();
 		
 		
 		Select select = new Select (driver.findElement(By.id("//*[@id=\"content\"]/section/section[2]/div/form/div[3]/div/input")));
